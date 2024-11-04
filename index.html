@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Криворот Владислав Віталійович, група ІП-23, лабораторна 5 (завдання 1), Варіант 9</title>
+</head>
+<body>
+
+<div class="container">
+    <form id="myForm">
+
+        <label for="pib">ПІБ</label>
+        <input type="text" id="pib" name="pib" placeholder="Петров Ф.А."><br>
+
+        <label for="variant">Варіант</label>
+        <input type="text" id="variant" name="variant" placeholder="09"><br>
+
+        <label for="group">Група</label>
+        <input type="text" id="group" name="group" placeholder="ІП-23"><br>
+
+        <label for="faculty">Факультет</label>
+        <input type="text" id="faculty" name="faculty" placeholder="ФІОТ"><br>
+
+        <label for="birthdate">Дата народження</label>
+        <input type="text" id="birthdate" name="birthdate" placeholder="12.12.2000"><br>
+
+        <button type="button" onclick="validateForm()">Перевірити</button>
+    </form>
+
+    <div class="result" id="result">
+        <h3>Введені дані:</h3>
+        <p id="output">Заповніть форму та натисніть кнопку Перевірити.</p>
+    </div>
+</div>
+<div class="ex2"><a href="index2.html">Завдання 2</a></div>
+
+<script src="script.js"></script>
+</body>
+</html>
